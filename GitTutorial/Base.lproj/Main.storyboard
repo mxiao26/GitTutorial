@@ -24,6 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kH0-op-ZdR">
                                 <rect key="frame" x="133" y="279" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.86013767659244988" green="0.43635276043200966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="This is a button!"/>
                                 <connections>
                                     <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3co-0s-mcU"/>
