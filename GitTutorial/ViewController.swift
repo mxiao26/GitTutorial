@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var textLabel: UILabel!
     
     @IBAction func onClick(_ sender: UIButton) {
         print("Hello world")
-        print("Hello again")
-        print("hello")
+        textLabel.text = "Button clicked"
     }
 
     override func viewDidLoad() {
