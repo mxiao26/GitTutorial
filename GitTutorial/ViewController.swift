@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBAction func onClick(_ sender: UIButton) {
         print("Hello world")
         textLabel.text = "Button was clicked"
+        print("Yay SCM!")
     }
 
     override func viewDidLoad() {
