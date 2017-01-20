@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBAction func onClick(_ sender: UIButton) {
         print("Hello world")
         print("Hello again")
+        print("hello")
     }
 
     override func viewDidLoad() {
